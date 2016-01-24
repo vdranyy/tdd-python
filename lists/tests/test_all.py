@@ -2,8 +2,8 @@ from django.core.urlresolvers import resolve
 from django.http import HttpRequest
 from django.template.loader import render_to_string
 from django.test import TestCase
-from .views import home_page
-from .models import Item, List
+from lists.views import home_page
+from lists.models import Item, List
 
 
 class HomePageTest(TestCase):
